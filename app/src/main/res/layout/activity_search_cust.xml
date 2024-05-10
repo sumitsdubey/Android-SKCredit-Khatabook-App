@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_search"
+    android:orientation="vertical"
+    tools:context=".SearchCust">
+
+
+    <SearchView
+        android:id="@+id/sv_customer"
+        android:layout_width="match_parent"
+        android:iconifiedByDefault="false"
+        android:layout_marginTop="5dp"
+        android:queryHint="Search Customer Name :"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/lv_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"/>
+</LinearLayout>
